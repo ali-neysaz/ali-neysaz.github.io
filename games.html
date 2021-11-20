@@ -30,12 +30,23 @@
         left: 41%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
+      p::before {
+        content: "";
+        background-color: red;
+        display: block;
+      }
+      p::after {
+        content: "";
+        background-color: red;
+        display: flex;
+      }
     </style>
   </head>
   <body>
     <!-- Display the countdown timer in an element (the calculator) -->
     <p id="demo" class="TheCountDownTimer">Hi</p>
     <div class="circle">the timer</div>
+    <div class="TheButton" id="deMo"></div>
 
     <script>
       // Set the date we're counting down to
