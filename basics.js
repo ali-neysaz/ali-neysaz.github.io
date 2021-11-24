@@ -178,13 +178,13 @@ console.log(qwerty);
 
 // Data types
 
-let YourName = "Ali";             // A string
-let yourAge = 14;                 // A number
-let TheFirstAndTheLastName = { first: 'Ali', last: "neysaz" };        // An object
-let truth = false;                // A boolean
-let ProgrammingLanguages = ["HTML", "python", "java", "javascript"];  // An array
-let random;                       // Undefined
-let nothing = null;               // Null
+//let YourName = "Ali";             // A string
+//let yourAge = 14;                 // A number
+//let TheFirstAndTheLastName = { first: 'Ali', last: "neysaz" };        // An object
+//let truth = false;                // A boolean
+//let ProgrammingLanguages = ["HTML", "python", "java", "javascript"];  // An array
+//let random;                       // Undefined
+//let nothing = null;               // Null
 
 
 
@@ -195,10 +195,46 @@ let nothing = null;               // Null
 
 // Strings in javascript
 
-let fruits = "Apple";
-let MoreFruits = "apple/nBanana";
-console.log(MoreFruits);                                      // Backslash?????
+//let fruits = "Apple";
+//let MoreFruits = "apple/nBanana";
+//console.log(MoreFruits);                                      // Backslash?????
 
 
-console.log(fruits.length);
-console.log(fruits.indexOf('ppl'));
+//console.log(fruits.length);
+//console.log(fruits.indexOf('ppl'));
+//console.log(fruits.slice(1, 5));
+//console.log(fruits.replace("pp","11"))
+
+
+
+// arrays:
+
+
+/*let band = ["eminem", "asdf", "azxcv"];
+// console.log(band[2]);
+
+
+
+band[1] =  ('aaa');
+console.log(fruits);
+*/
+
+
+
+
+
+
+
+
+// conditionals (if else):
+
+
+
+
+
+
+
+
+
+
+

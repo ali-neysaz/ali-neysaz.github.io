@@ -33,12 +33,28 @@
       body {
         background-color: lightblue;
       }
+      .Image {
+      }
+      .qwertyuio {
+        position: fixed;
+        top: 320px;
+        left: 160px;
+        text-shadow: 10px;
+        text-decoration: wavy;
+        width: 340px;
+        height: 80px;
+        background-color: gray;
+        display: grid;
+        place-items: center;
+        border-radius: 10px;
+      }
     </style>
   </head>
   <body>
     <div class="top">
       <p id="1" class="type" style="color: white"></p>
     </div>
+    <div class="Image"></div>
     <script>
       let name = prompt("What is your name?");
       let string = "Hello mr/mis ";
@@ -46,5 +62,6 @@
       document.getElementById("1").innerHTML = result;
     </script>
     <p class="qwe" style="color: white">welcome to my website</p>
+    <h1><p class="qwertyuio">Hello everyone!</p></h1>
   </body>
 </html>
